@@ -1,0 +1,18 @@
+.year__fact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: auto;
+  min-width: 400px;
+
+  .year__fact_year {
+    color: #3877ee;
+    font-size: 25px;
+  }
+
+  .year__fact_text {
+    color: #42567a;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

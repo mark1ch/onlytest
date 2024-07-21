@@ -1,0 +1,16 @@
+.years__interval {
+  display: flex;
+  gap: 50px;
+  font-size: 180px;
+  font-weight: bold;
+  z-index: -1;
+  margin-bottom: 140px;
+
+  .years__interval_first {
+    color: #5691ff;
+  }
+
+  .years__interval_second {
+    color: #ff56c4;
+  }
+}

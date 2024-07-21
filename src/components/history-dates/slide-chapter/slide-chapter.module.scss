@@ -1,0 +1,28 @@
+$colorActive: #42567a;
+
+.slide__chapter {
+  align-self: flex-start;
+  padding-left: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 50px;
+
+  .slide__chapter__header {
+    color: $colorActive;
+    font-size: 18px;
+  }
+
+  .slide__chapter__btn {
+    display: flex;
+    gap: 15px;
+
+    .slide__chapter__btn_right {
+      transform: rotate(180deg);
+    }
+
+    .slide__chapter__btn_disabled {
+      opacity: 0.6;
+    }
+  }
+}

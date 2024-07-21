@@ -1,0 +1,51 @@
+$colorBorder: rgb(225, 225, 225);
+$colorActive: #42567a;
+
+.history__dates {
+  height: 100vh;
+  border-left: 1px solid $colorBorder;
+  border-right: 1px solid $colorBorder;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: $colorBorder;
+  }
+
+  &::before {
+    width: 100%;
+    height: 1px;
+    top: 400px;
+  }
+
+  &::after {
+    height: 100%;
+    width: 1px;
+    left: 50%;
+  }
+}
+
+.history__dates__text {
+  align-self: flex-start;
+  height: 134px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  color: $colorActive;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 58px;
+
+  .history__dates__text__gradient {
+    height: 100%;
+    width: 5px;
+    background: linear-gradient(#3877ee, #ef5da8);
+  }
+}
